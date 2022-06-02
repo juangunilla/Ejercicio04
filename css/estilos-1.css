@@ -105,14 +105,14 @@ h3{
     display: flex;
     background-color: white;
     width: 70vw;
-    padding: 20px;
+    justify-content:space-between;
+    margin-left: 10%;
 }
 .icono{
-    width: 80px;
-    height:76px;
-    background-color: white;
-    padding-left:15px;
-    
+
+    width: 20%;
+    height:20%;
+    background-color: white;    
 }
 .descripciones{
     display: flex;
@@ -126,7 +126,7 @@ h3{
 }
 .plataformas{
     background-color: white;
-    padding-left: 100px;
+    padding-left: 5%;
     color: gray;
 }
 .detalle{
@@ -134,4 +134,13 @@ h3{
     background-color: white;
     list-style: none;
 }
-
+.grupo-iconos{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+}
+.iconos{
+    margin-left: 3%;
+    color: black;
+    background-color: white;
+}
