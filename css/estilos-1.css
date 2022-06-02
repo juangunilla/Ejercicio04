@@ -1,0 +1,137 @@
+*{
+    background-color: #E11364;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    background-color: #BC105C;
+    width: 90vw;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    padding: 10px;
+}
+.fondo{
+    background-color: #BC105C;
+    display: block;
+    margin: auto;
+    width: 90vw;
+    margin-top: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+.blanco{
+    background-color: white;
+    color: #BC105C;
+    padding-top: 20px;
+    border-radius: 5px;
+    text-align: end;
+    padding-right:10px ;
+    font-size: 18px;
+    height: auto;
+    margin-top: 30px;
+    padding-bottom: 1px;
+}
+.subtitulo{
+    background-color: white;
+    border-bottom: 1px dotted #BC105C;
+}
+img{
+    width: 99%;
+    margin-top: 10px;
+}
+.parrafos{
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-weight: normal;
+    padding: 10px;
+    font-size: 16px;
+}
+.boton{
+    display: block;
+    margin: auto;
+    width: 100px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+.boton:hover{
+    background-color: #BC105C;
+}
+footer{
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: #E96093;
+    width: 90vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+.link{
+    background-color: white;
+    color: black;
+}
+.mario{
+    width: 99%;
+    border: 3px solid #E11364;
+    box-shadow: 2px 2px 5px 3px gray;
+}
+h3{
+    background-color: white;
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.flex{
+    display: flex;
+    background-color: white;
+    width: 70vw;
+    padding: 20px;
+}
+.icono{
+    width: 80px;
+    height:76px;
+    background-color: white;
+    padding-left:15px;
+    
+}
+.descripciones{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 50px;
+}
+.descripcion{
+    background-color: white;
+    padding-right: 70px;
+}
+.plataformas{
+    background-color: white;
+    padding-left: 100px;
+    color: gray;
+}
+.detalle{
+    text-align: start;
+    background-color: white;
+    list-style: none;
+}
+
